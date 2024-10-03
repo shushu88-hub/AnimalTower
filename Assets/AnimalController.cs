@@ -8,7 +8,7 @@ public class AnimalController : MonoBehaviour
     // Rigidbody2Dコンポーネントを格納するための変数
     private Rigidbody2D rb;
     // 動物の移動速度を調整するためのパラメータ
-    public float moveSpeed = 5f;
+    public float moveSpeed = 10f;
 
     void Start()
     {
