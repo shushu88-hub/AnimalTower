@@ -44,7 +44,7 @@ public class AnimalController : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Dynamic;
     }
 
-     // 衝突時に高さをスコアに加算し、カメラを調整する
+    // 衝突時に高さをスコアに加算し、カメラを調整する
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (isReleased)
